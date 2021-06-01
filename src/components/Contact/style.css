@@ -1,0 +1,113 @@
+.contact {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.c-form .left,
+.c-form .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c-link {
+  text-align: center;
+  padding: 2rem 2rem 1rem 2rem;
+  height: 100%;
+  color: var(--color-extra-light);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+
+.c-link:hover {
+  border: 2px solid var(--color-extra-light);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
+}
+
+.c-icon {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.c-title {
+  margin-bottom: 1rem;
+}
+
+.c-content {
+  letter-spacing: 0.1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.contact-form {
+  width: 100%;
+  height: 100%;
+  /* background-image: linear-gradient(
+    125deg,
+    rgba(0, 0, 0) 50%,
+    rgba(255, 165, 0) 50%
+  ); */
+  color: var(--color-extra-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.contact-form:hover {
+  border: 2px solid var(--color-extra-light);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.7);
+}
+
+.c-input {
+  width: 60%;
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  background-color: transparent;
+  outline: none;
+  border: transparent;
+  border-bottom: 1px solid var(--color-extra-light);
+  font-size: 2rem;
+  color: var(--color-extra-light);
+}
+
+.c-h {
+  color: var(--color-extra-light);
+}
+
+::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-extra-light);
+}
+
+.form-icon {
+  color: var(--color-extra-light);
+}
+
+.btn-2:hover .form-icon {
+  color: var(--color-extra-dark);
+}

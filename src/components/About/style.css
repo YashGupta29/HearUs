@@ -1,0 +1,42 @@
+.about {
+  background-color: var(--color-extra-light);
+  width: 100%;
+  margin: 0;
+}
+
+.a-h {
+  color: var(--color-extra-dark);
+}
+
+.r2 {
+  flex-direction: row-reverse;
+}
+
+.left,
+.right {
+  padding: 2rem;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.head {
+  font-size: 3.5rem;
+  color: var(--color-extra-dark);
+  margin-bottom: 2.5rem;
+}
+
+.body {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  color: var(--color-blue);
+}
+
+.a-image {
+  height: 100%;
+  width: 100%;
+}
