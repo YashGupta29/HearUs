@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="section-heading c-h">Get In Touch</div>
         <div className="section-content c-form">
           <div className="row">
-            <div className="col-4 left">
+            <div className="col-md-4 col-lg-4 col-sm-12 left">
               <div className="c-link">
                 <i class="fas fa-map-marker-alt c-icon"></i>
                 <h3 className="c-title">Address</h3>
@@ -40,7 +40,7 @@ const Contact = () => {
                 <p className="c-content">example@gmail.com</p>
               </div>
             </div>
-            <div className="col-8 right">
+            <div className="col-md-8 col-lg-8 col-sm-12 right">
               <form
                 action=""
                 className="contact-form"

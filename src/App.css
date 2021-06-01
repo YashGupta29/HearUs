@@ -18,8 +18,6 @@
 
 html {
   font-size: 62.5%;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -36,11 +34,10 @@ section {
 
 .section-heading {
   text-align: center;
-  padding: 8rem 0 1rem 0;
+  padding-top: 8rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.3rem;
-  padding-left: 8rem;
   font-size: 5rem;
 }
 
@@ -90,4 +87,25 @@ section {
 .btn-2:focus:hover {
   background-color: var(--color-extra-light);
   color: var(--color-extra-dark);
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 37.5em) {
+  html {
+    font-size: 50%;
+  }
 }

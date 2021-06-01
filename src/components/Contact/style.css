@@ -111,3 +111,19 @@ input[type="number"] {
 .btn-2:hover .form-icon {
   color: var(--color-extra-dark);
 }
+
+@media (max-width: 767px) {
+  .c-form .left {
+    flex-direction: row;
+  }
+  .c-input {
+    width: 80%;
+  }
+}
+
+@media (max-width: 440px) {
+  .c-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

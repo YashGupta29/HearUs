@@ -47,3 +47,34 @@
   opacity: 1;
   display: block;
 }
+
+@media screen and (max-width: 1199px) {
+  .faq-card:nth-child(6) {
+    height: 11rem;
+  }
+  .faq-card:nth-child(6):hover {
+    height: 16rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .faq-card:nth-child(2):hover {
+    height: 15rem;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .faq-card:nth-child(2):hover,
+  .faq-card:nth-child(3):hover,
+  .faq-card:nth-child(5):hover,
+  .faq-card:nth-child(7):hover {
+    height: 19rem;
+  }
+
+  .faq-card:nth-child(6) {
+    height: 18rem;
+  }
+  .faq-card:nth-child(6):hover {
+    height: 21rem;
+  }
+}

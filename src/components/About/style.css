@@ -40,3 +40,13 @@
   height: 100%;
   width: 100%;
 }
+
+@media (max-width: 767px) {
+  .left {
+    align-items: center;
+  }
+  .head,
+  .body {
+    text-align: center;
+  }
+}

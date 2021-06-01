@@ -82,11 +82,16 @@ ul {
   color: var(--color-blue-dark);
 }
 
-/*responsive*/
+/* responsive */
 @media (max-width: 767px) {
   .footer-col {
-    width: 50%;
+    text-align: center;
+    width: 33%;
     margin-bottom: 30px;
+  }
+  .footer-col h4::before {
+    left: 50%;
+    transform: translate(-50%);
   }
 }
 @media (max-width: 574px) {
